@@ -1,0 +1,84 @@
+/* 
+  
+.jumbotron{
+  
+  width: 100%;
+  background-image: url(./pexels-photo-collections-213966.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 1400px;
+  animation: zoom ease 5s;
+  animation-fill-mode: forwards;
+  background-color: #a18562;
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+}
+
+
+.jumbtext{
+color: wheat;
+}
+@keyframes zoom {
+  
+  100% {
+    min-height: 1800px;
+  }
+
+}  */
+
+
+
+  
+.jumbotron{
+  outline:2px solid black;
+  width: 100%;
+  height: 100%;
+  background-image: url(./newsizeclimber\ \(4\).jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 680px;
+  animation: zoom ease 3s;
+  animation-fill-mode: forwards;
+  background-color: #a18562;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.jumbtext{
+  padding-left: 40px;
+color: white;
+animation: appear ease 5s;
+animation-fill-mode: forwards;
+animation-delay: 2.5s;
+opacity: 0;
+}
+
+.lead{
+  padding: 20px;
+}
+
+
+@keyframes zoom {
+  
+  100% {
+    background-size: 120%;
+    background-position: center left;
+  }
+
+} 
+
+@keyframes appear {
+  
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+
+} 
